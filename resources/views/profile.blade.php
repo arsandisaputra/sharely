@@ -38,25 +38,31 @@
     <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
 
-<body class="g-sidenav-show bg-gray-100">
-    <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-radius-xl fixed-start my-3 ms-3 border-0" id="sidenav-main">
+<body class="bg-gray-100 g-sidenav-show">
+    <aside class="my-3 border-0 sidenav navbar navbar-vertical navbar-expand-xs border-radius-xl fixed-start ms-3"
+        id="sidenav-main">
         <div class="sidenav-header">
-            <i class="fas fa-times text-secondary position-absolute d-none d-xl-none end-0 top-0 cursor-pointer p-3 opacity-5" aria-hidden="true" id="iconSidenav"></i>
-            <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html " target="_blank">
+            <i class="top-0 p-3 cursor-pointer fas fa-times text-secondary position-absolute d-none d-xl-none end-0 opacity-5"
+                aria-hidden="true" id="iconSidenav"></i>
+            <a class="m-0 navbar-brand" href=" https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html "
+                target="_blank">
                 <img src="{{ asset('img/logo-ct-dark.png') }}" class="navbar-brand-img h-100" alt="main_logo">
-                <span class="font-weight-bold ms-1">Soft UI Dashboard</span>
+                <span class="font-weight-bold ms-1">Sharely</span>
             </a>
         </div>
-        <hr class="horizontal dark mt-0">
-        <div class="navbar-collapse collapse w-auto" id="sidenav-collapse-main">
+        <hr class="mt-0 horizontal dark">
+        <div class="w-auto navbar-collapse collapse" id="sidenav-collapse-main">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/dashboard.html">
-                        <div class="icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2 bg-white text-center shadow">
-                            <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="text-center bg-white shadow icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2">
+                            <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>shop </title>
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(-1716.000000, -439.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <g transform="translate(-1716.000000, -439.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
                                         <g transform="translate(1716.000000, 291.000000)">
                                             <g transform="translate(0.000000, 148.000000)">
                                                 <path class="color-background opacity-6"
@@ -76,11 +82,14 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/tables.html">
-                        <div class="icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2 bg-white text-center shadow">
-                            <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="text-center bg-white shadow icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2">
+                            <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>office</title>
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(-1869.000000, -293.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <g transform="translate(-1869.000000, -293.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
                                         <g transform="translate(1716.000000, 291.000000)">
                                             <g id="office" transform="translate(153.000000, 2.000000)">
                                                 <path class="color-background opacity-6"
@@ -100,11 +109,14 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/billing.html">
-                        <div class="icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2 bg-white text-center shadow">
-                            <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="text-center bg-white shadow icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2">
+                            <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>credit-card</title>
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
                                         <g transform="translate(1716.000000, 291.000000)">
                                             <g transform="translate(453.000000, 454.000000)">
                                                 <path class="color-background opacity-6"
@@ -124,11 +136,14 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/virtual-reality.html">
-                        <div class="icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2 bg-white text-center shadow">
-                            <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="text-center bg-white shadow icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2">
+                            <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>box-3d-50</title>
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(-2319.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <g transform="translate(-2319.000000, -291.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
                                         <g transform="translate(1716.000000, 291.000000)">
                                             <g transform="translate(603.000000, 0.000000)">
                                                 <path class="color-background"
@@ -151,11 +166,14 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/rtl.html">
-                        <div class="icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2 bg-white text-center shadow">
-                            <svg width="12px" height="12px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="text-center bg-white shadow icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2">
+                            <svg width="12px" height="12px" viewBox="0 0 40 40" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>settings</title>
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(-2020.000000, -442.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <g transform="translate(-2020.000000, -442.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
                                         <g transform="translate(1716.000000, 291.000000)">
                                             <g transform="translate(304.000000, 151.000000)">
                                                 <polygon class="color-background opacity-6"
@@ -176,16 +194,19 @@
                         <span class="nav-link-text ms-1">RTL</span>
                     </a>
                 </li>
-                <li class="nav-item mt-3">
-                    <h6 class="text-uppercase font-weight-bolder opacity-6 ms-2 ps-4 text-xs">Account pages</h6>
+                <li class="mt-3 nav-item">
+                    <h6 class="text-xs text-uppercase font-weight-bolder opacity-6 ms-2 ps-4">Account pages</h6>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="../pages/profile.html">
-                        <div class="icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2 bg-white text-center shadow">
-                            <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="text-center bg-white shadow icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2">
+                            <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>customer-support</title>
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(-1717.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <g transform="translate(-1717.000000, -291.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
                                         <g transform="translate(1716.000000, 291.000000)">
                                             <g transform="translate(1.000000, 0.000000)">
                                                 <path class="color-background opacity-6"
@@ -194,7 +215,8 @@
                                                 <path class="color-background"
                                                     d="M22.883,32.86 C20.761,32.012 17.324,31 13,31 C8.676,31 5.239,32.012 3.116,32.86 C1.224,33.619 0,35.438 0,37.494 L0,41 C0,41.553 0.447,42 1,42 L25,42 C25.553,42 26,41.553 26,41 L26,37.494 C26,35.438 24.776,33.619 22.883,32.86 Z">
                                                 </path>
-                                                <path class="color-background" d="M13,28 C17.432,28 21,22.529 21,18 C21,13.589 17.411,10 13,10 C8.589,10 5,13.589 5,18 C5,22.529 8.568,28 13,28 Z">
+                                                <path class="color-background"
+                                                    d="M13,28 C17.432,28 21,22.529 21,18 C21,13.589 17.411,10 13,10 C8.589,10 5,13.589 5,18 C5,22.529 8.568,28 13,28 Z">
                                                 </path>
                                             </g>
                                         </g>
@@ -207,11 +229,14 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/sign-in.html">
-                        <div class="icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2 bg-white text-center shadow">
-                            <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="text-center bg-white shadow icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2">
+                            <svg width="12px" height="12px" viewBox="0 0 40 44" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>document</title>
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(-1870.000000, -591.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <g transform="translate(-1870.000000, -591.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
                                         <g transform="translate(1716.000000, 291.000000)">
                                             <g transform="translate(154.000000, 300.000000)">
                                                 <path class="color-background opacity-6"
@@ -231,11 +256,14 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../pages/sign-up.html">
-                        <div class="icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2 bg-white text-center shadow">
-                            <svg width="12px" height="20px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="text-center bg-white shadow icon icon-shape icon-sm border-radius-md d-flex align-items-center justify-content-center me-2">
+                            <svg width="12px" height="20px" viewBox="0 0 40 40" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>spaceship</title>
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                    <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
                                         <g transform="translate(1716.000000, 291.000000)">
                                             <g transform="translate(4.000000, 301.000000)">
                                                 <path class="color-background"
@@ -261,83 +289,91 @@
                 </li>
             </ul>
         </div>
-        {{-- <div class="sidenav-footer mx-3">
-            <div class="card card-background card-background-mask-secondary shadow-none" id="sidenavCard">
+        {{-- <div class="mx-3 sidenav-footer">
+            <div class="shadow-none card card-background card-background-mask-secondary" id="sidenavCard">
                 <div class="full-background" style="background-image: url('{{ asset('img/curved-images/white-curved.jpg') }}"></div>
-                <div class="card-body w-100 p-3 text-start">
-                    <div class="icon icon-shape icon-sm d-flex align-items-center justify-content-center border-radius-md mb-3 bg-white text-center shadow">
-                        <i class="ni ni-diamond text-dark text-gradient top-0 text-lg" aria-hidden="true" id="sidenavCardIcon"></i>
+                <div class="p-3 card-body w-100 text-start">
+                    <div class="mb-3 text-center bg-white shadow icon icon-shape icon-sm d-flex align-items-center justify-content-center border-radius-md">
+                        <i class="top-0 text-lg ni ni-diamond text-dark text-gradient" aria-hidden="true" id="sidenavCardIcon"></i>
                     </div>
                     <div class="docs-info">
-                        <h6 class="up mb-0 text-white">Need help?</h6>
-                        <p class="font-weight-bold text-xs">Please check our docs</p>
-                        <a href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard" target="_blank" class="btn btn-white btn-sm w-100 mb-0">Documentation</a>
+                        <h6 class="mb-0 text-white up">Need help?</h6>
+                        <p class="text-xs font-weight-bold">Please check our docs</p>
+                        <a href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard" target="_blank" class="mb-0 btn btn-white btn-sm w-100">Documentation</a>
                     </div>
                 </div>
             </div>
-            <a class="btn bg-gradient-primary w-100 mt-3" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro?ref=sidebarfree">Upgrade to pro</a> --}}
+            <a class="mt-3 btn bg-gradient-primary w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard-pro?ref=sidebarfree">Upgrade to pro</a> --}}
         </div>
     </aside>
-    <div class="main-content position-relative max-height-vh-100 h-100 bg-gray-100">
+    <div class="bg-gray-100 main-content position-relative max-height-vh-100 h-100">
         <!-- Navbar -->
-        <nav class="navbar navbar-main navbar-expand-lg position-absolute w-100 z-index-2 bg-transparent px-4 shadow-none">
-            <div class="container-fluid py-1">
+        <nav
+            class="px-4 pt-4 bg-transparent shadow-none navbar navbar-main navbar-expand-lg position-absolute w-100 z-index-2">
+            <div class="py-1 container-fluid">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb me-sm-6 mb-0 me-5 bg-transparent pb-0 ps-2 pt-1">
-                        <li class="breadcrumb-item text-sm"><a class="text-white opacity-5" href="javascript:;">Pages</a></li>
-                        <li class="breadcrumb-item active text-sm text-white" aria-current="page">Profile</li>
+                    <ol class="pt-1 pb-0 mb-0 bg-transparent breadcrumb me-sm-6 me-5 ps-2">
+                        <li class="text-sm breadcrumb-item"><a class="text-white opacity-5"
+                                href="javascript:;">Pages</a></li>
+                        <li class="text-sm text-white breadcrumb-item active" aria-current="page">Profile</li>
                     </ol>
-                    <h6 class="font-weight-bolder ms-2 text-white">Profile</h6>
+                    <h6 class="text-white font-weight-bolder ms-2">Profile</h6>
                 </nav>
-                <div class="navbar-collapse me-md-0 me-sm-4 mt-sm-0 collapse mt-2" id="navbar">
+                <div class="mt-2 navbar-collapse me-md-0 me-sm-4 mt-sm-0 collapse" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
                         <div class="input-group">
-                            <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
+                            <span class="input-group-text text-body"><i class="fas fa-search"
+                                    aria-hidden="true"></i></span>
                             <input type="text" class="form-control" placeholder="Type here...">
                         </div>
                     </div>
                     <ul class="navbar-nav justify-content-end">
                         <li class="nav-item d-flex align-items-center">
-                            <a class="btn btn-outline-white btn-sm mb-0 me-3" target="_blank" href="https://www.creative-tim.com/builder?ref=navbar-soft-ui-dashboard">Online Builder</a>
+                            <a class="mb-0 btn btn-outline-white btn-sm me-3" target="_blank"
+                                href="https://www.creative-tim.com/builder?ref=navbar-soft-ui-dashboard">Online
+                                Builder</a>
                         </li>
                         <li class="nav-item d-flex align-items-center">
-                            <a href="javascript:;" class="nav-link font-weight-bold px-0 text-white">
+                            <a href="javascript:;" class="px-0 text-white nav-link font-weight-bold">
                                 <i class="fa fa-user me-sm-1"></i>
                                 <span class="d-sm-inline d-none">Sign In</span>
                             </a>
                         </li>
                         <li class="nav-item d-xl-none d-flex align-items-center pe-0 ps-3">
-                            <a href="javascript:;" class="nav-link p-0 text-white">
-                                <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+                            <a href="javascript:;" class="p-0 text-white nav-link">
+                                <a href="javascript:;" class="p-0 nav-link text-body" id="iconNavbarSidenav">
                                     <div class="sidenav-toggler-inner">
-                                        <i class="sidenav-toggler-line bg-white"></i>
-                                        <i class="sidenav-toggler-line bg-white"></i>
-                                        <i class="sidenav-toggler-line bg-white"></i>
+                                        <i class="bg-white sidenav-toggler-line"></i>
+                                        <i class="bg-white sidenav-toggler-line"></i>
+                                        <i class="bg-white sidenav-toggler-line"></i>
                                     </div>
                                 </a>
                             </a>
                         </li>
-                        <li class="nav-item d-flex align-items-center px-3">
-                            <a href="javascript:;" class="nav-link p-0 text-white">
-                                <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
+                        <li class="px-3 nav-item d-flex align-items-center">
+                            <a href="javascript:;" class="p-0 text-white nav-link">
+                                <i class="cursor-pointer fa fa-cog fixed-plugin-button-nav"></i>
                             </a>
                         </li>
                         <li class="nav-item dropdown d-flex align-items-center pe-2">
-                            <a href="javascript:;" class="nav-link p-0 text-white" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa fa-bell cursor-pointer"></i>
+                            <a href="javascript:;" class="p-0 text-white nav-link" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="cursor-pointer fa fa-bell"></i>
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-end ms-n4 px-2 py-3" aria-labelledby="dropdownMenuButton">
+                            <ul class="px-2 py-3 dropdown-menu dropdown-menu-end ms-n4"
+                                aria-labelledby="dropdownMenuButton">
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
-                                        <div class="d-flex py-1">
+                                        <div class="py-1 d-flex">
                                             <div class="my-auto">
-                                                <img src="{{ asset('img/team-2.jpg') }}" class="avatar avatar-sm me-3">
+                                                <img src="{{ asset('img/team-2.jpg') }}"
+                                                    class="avatar avatar-sm me-3">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="font-weight-normal mb-1 text-sm">
+                                                <h6 class="mb-1 text-sm font-weight-normal">
                                                     <span class="font-weight-bold">New message</span> from Laur
                                                 </h6>
-                                                <p class="text-secondary mb-0 text-xs">
+                                                <p class="mb-0 text-xs text-secondary">
                                                     <i class="fa fa-clock me-1"></i>
                                                     13 minutes ago
                                                 </p>
@@ -347,15 +383,16 @@
                                 </li>
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
-                                        <div class="d-flex py-1">
+                                        <div class="py-1 d-flex">
                                             <div class="my-auto">
-                                                <img src="{{ asset('img/small-logos/logo-spotify.svg') }}" class="avatar avatar-sm bg-gradient-dark me-3">
+                                                <img src="{{ asset('img/small-logos/logo-spotify.svg') }}"
+                                                    class="avatar avatar-sm bg-gradient-dark me-3">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="font-weight-normal mb-1 text-sm">
+                                                <h6 class="mb-1 text-sm font-weight-normal">
                                                     <span class="font-weight-bold">New album</span> by Travis Scott
                                                 </h6>
-                                                <p class="text-secondary mb-0 text-xs">
+                                                <p class="mb-0 text-xs text-secondary">
                                                     <i class="fa fa-clock me-1"></i>
                                                     1 day
                                                 </p>
@@ -365,13 +402,16 @@
                                 </li>
                                 <li>
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
-                                        <div class="d-flex py-1">
-                                            <div class="avatar avatar-sm bg-gradient-secondary my-auto me-3">
-                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        <div class="py-1 d-flex">
+                                            <div class="my-auto avatar avatar-sm bg-gradient-secondary me-3">
+                                                <svg width="12px" height="12px" viewBox="0 0 43 36"
+                                                    version="1.1" xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <title>credit-card</title>
-                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                    <g stroke="none" stroke-width="1" fill="none"
+                                                        fill-rule="evenodd">
+                                                        <g transform="translate(-2169.000000, -745.000000)"
+                                                            fill="#FFFFFF" fill-rule="nonzero">
                                                             <g transform="translate(1716.000000, 291.000000)">
                                                                 <g transform="translate(453.000000, 454.000000)">
                                                                     <path class="color-background"
@@ -387,10 +427,10 @@
                                                 </svg>
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
-                                                <h6 class="font-weight-normal mb-1 text-sm">
+                                                <h6 class="mb-1 text-sm font-weight-normal">
                                                     Payment successfully completed
                                                 </h6>
-                                                <p class="text-secondary mb-0 text-xs">
+                                                <p class="mb-0 text-xs text-secondary">
                                                     <i class="fa fa-clock me-1"></i>
                                                     2 days
                                                 </p>
@@ -406,14 +446,16 @@
         </nav>
         <!-- End Navbar -->
         <div class="container-fluid">
-            <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url(`{{ asset('img/curved-images/curved0.jpg') }}`; background-position-y: 50%;">
+            <div class="mt-4 page-header min-height-300 border-radius-xl"
+                style="background-image: url(`{{ asset('img/curved-images/curved0.jpg') }}`; background-position-y: 50%;">
                 <span class="mask bg-gradient-primary opacity-6"></span>
             </div>
-            <div class="card card-body shadow-blur mt-n6 mx-4 overflow-hidden blur">
+            <div class="mx-4 overflow-hidden card card-body shadow-blur mt-n6 blur">
                 <div class="row gx-4">
                     <div class="col-auto">
                         <div class="avatar avatar-xl position-relative">
-                            <img src="{{ asset('img/bruce-mars.jpg') }}" alt="profile_image" class="w-100 border-radius-lg shadow-sm">
+                            <img src="{{ asset('img/bruce-mars.jpg') }}" alt="profile_image"
+                                class="shadow-sm w-100 border-radius-lg">
                         </div>
                     </div>
                     <div class="col-auto my-auto">
@@ -421,20 +463,23 @@
                             <h5 class="mb-1">
                                 Alec Thompson
                             </h5>
-                            <p class="font-weight-bold mb-0 text-sm">
+                            <p class="mb-0 text-sm font-weight-bold">
                                 CEO / Co-Founder
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0 mx-auto mt-3">
+                    <div class="mx-auto mt-3 col-lg-4 col-md-6 my-sm-auto ms-sm-auto me-sm-0">
                         <div class="nav-wrapper position-relative end-0">
-                            <ul class="nav nav-pills nav-fill bg-transparent p-1" role="tablist">
+                            <ul class="p-1 bg-transparent nav nav-pills nav-fill" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active mb-0 px-0 py-1" data-bs-toggle="tab" href="javascript:;" role="tab" aria-selected="true">
-                                        <svg class="text-dark" width="16px" height="16px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    <a class="px-0 py-1 mb-0 nav-link active" data-bs-toggle="tab"
+                                        href="javascript:;" role="tab" aria-selected="true">
+                                        <svg class="text-dark" width="16px" height="16px" viewBox="0 0 42 42"
+                                            version="1.1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink">
                                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g transform="translate(-2319.000000, -291.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                <g transform="translate(-2319.000000, -291.000000)" fill="#FFFFFF"
+                                                    fill-rule="nonzero">
                                                     <g transform="translate(1716.000000, 291.000000)">
                                                         <g transform="translate(603.000000, 0.000000)">
                                                             <path class="color-background"
@@ -455,12 +500,15 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="javascript:;" role="tab" aria-selected="false">
-                                        <svg class="text-dark" width="16px" height="16px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    <a class="px-0 py-1 mb-0 nav-link" data-bs-toggle="tab" href="javascript:;"
+                                        role="tab" aria-selected="false">
+                                        <svg class="text-dark" width="16px" height="16px" viewBox="0 0 40 44"
+                                            version="1.1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink">
                                             <title>document</title>
                                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g transform="translate(-1870.000000, -591.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                <g transform="translate(-1870.000000, -591.000000)" fill="#FFFFFF"
+                                                    fill-rule="nonzero">
                                                     <g transform="translate(1716.000000, 291.000000)">
                                                         <g transform="translate(154.000000, 300.000000)">
                                                             <path class="color-background"
@@ -478,12 +526,15 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="javascript:;" role="tab" aria-selected="false">
-                                        <svg class="text-dark" width="16px" height="16px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    <a class="px-0 py-1 mb-0 nav-link" data-bs-toggle="tab" href="javascript:;"
+                                        role="tab" aria-selected="false">
+                                        <svg class="text-dark" width="16px" height="16px" viewBox="0 0 40 40"
+                                            version="1.1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink">
                                             <title>settings</title>
                                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g transform="translate(-2020.000000, -442.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                <g transform="translate(-2020.000000, -442.000000)" fill="#FFFFFF"
+                                                    fill-rule="nonzero">
                                                     <g transform="translate(1716.000000, 291.000000)">
                                                         <g transform="translate(304.000000, 151.000000)">
                                                             <polygon class="color-background" opacity="0.596981957"
@@ -509,53 +560,66 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid py-4">
+        <div class="py-4 container-fluid">
             <div class="row">
                 <div class="col-12 col-xl-4">
                     <div class="card h-100">
-                        <div class="card-header p-3 pb-0">
+                        <div class="p-3 pb-0 card-header">
                             <h6 class="mb-0">Platform Settings</h6>
                         </div>
-                        <div class="card-body p-3">
-                            <h6 class="text-uppercase text-body font-weight-bolder text-xs">Account</h6>
+                        <div class="p-3 card-body">
+                            <h6 class="text-xs text-uppercase text-body font-weight-bolder">Account</h6>
                             <ul class="list-group">
-                                <li class="list-group-item border-0 px-0">
+                                <li class="px-0 border-0 list-group-item">
                                     <div class="form-check form-switch ps-0">
-                                        <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault" checked>
-                                        <label class="form-check-label text-body text-truncate mb-0 ms-3 w-80" for="flexSwitchCheckDefault">Email me when someone follows me</label>
+                                        <input class="form-check-input ms-auto" type="checkbox"
+                                            id="flexSwitchCheckDefault" checked>
+                                        <label class="mb-0 form-check-label text-body text-truncate ms-3 w-80"
+                                            for="flexSwitchCheckDefault">Email me when someone follows me</label>
                                     </div>
                                 </li>
-                                <li class="list-group-item border-0 px-0">
+                                <li class="px-0 border-0 list-group-item">
                                     <div class="form-check form-switch ps-0">
-                                        <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault1">
-                                        <label class="form-check-label text-body text-truncate mb-0 ms-3 w-80" for="flexSwitchCheckDefault1">Email me when someone answers on my post</label>
+                                        <input class="form-check-input ms-auto" type="checkbox"
+                                            id="flexSwitchCheckDefault1">
+                                        <label class="mb-0 form-check-label text-body text-truncate ms-3 w-80"
+                                            for="flexSwitchCheckDefault1">Email me when someone answers on my
+                                            post</label>
                                     </div>
                                 </li>
-                                <li class="list-group-item border-0 px-0">
+                                <li class="px-0 border-0 list-group-item">
                                     <div class="form-check form-switch ps-0">
-                                        <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault2" checked>
-                                        <label class="form-check-label text-body text-truncate mb-0 ms-3 w-80" for="flexSwitchCheckDefault2">Email me when someone mentions me</label>
+                                        <input class="form-check-input ms-auto" type="checkbox"
+                                            id="flexSwitchCheckDefault2" checked>
+                                        <label class="mb-0 form-check-label text-body text-truncate ms-3 w-80"
+                                            for="flexSwitchCheckDefault2">Email me when someone mentions me</label>
                                     </div>
                                 </li>
                             </ul>
-                            <h6 class="text-uppercase text-body font-weight-bolder mt-4 text-xs">Application</h6>
+                            <h6 class="mt-4 text-xs text-uppercase text-body font-weight-bolder">Application</h6>
                             <ul class="list-group">
-                                <li class="list-group-item border-0 px-0">
+                                <li class="px-0 border-0 list-group-item">
                                     <div class="form-check form-switch ps-0">
-                                        <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault3">
-                                        <label class="form-check-label text-body text-truncate mb-0 ms-3 w-80" for="flexSwitchCheckDefault3">New launches and projects</label>
+                                        <input class="form-check-input ms-auto" type="checkbox"
+                                            id="flexSwitchCheckDefault3">
+                                        <label class="mb-0 form-check-label text-body text-truncate ms-3 w-80"
+                                            for="flexSwitchCheckDefault3">New launches and projects</label>
                                     </div>
                                 </li>
-                                <li class="list-group-item border-0 px-0">
+                                <li class="px-0 border-0 list-group-item">
                                     <div class="form-check form-switch ps-0">
-                                        <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault4" checked>
-                                        <label class="form-check-label text-body text-truncate mb-0 ms-3 w-80" for="flexSwitchCheckDefault4">Monthly product updates</label>
+                                        <input class="form-check-input ms-auto" type="checkbox"
+                                            id="flexSwitchCheckDefault4" checked>
+                                        <label class="mb-0 form-check-label text-body text-truncate ms-3 w-80"
+                                            for="flexSwitchCheckDefault4">Monthly product updates</label>
                                     </div>
                                 </li>
-                                <li class="list-group-item border-0 px-0 pb-0">
+                                <li class="px-0 pb-0 border-0 list-group-item">
                                     <div class="form-check form-switch ps-0">
-                                        <input class="form-check-input ms-auto" type="checkbox" id="flexSwitchCheckDefault5">
-                                        <label class="form-check-label text-body text-truncate mb-0 ms-3 w-80" for="flexSwitchCheckDefault5">Subscribe to newsletter</label>
+                                        <input class="form-check-input ms-auto" type="checkbox"
+                                            id="flexSwitchCheckDefault5">
+                                        <label class="mb-0 form-check-label text-body text-truncate ms-3 w-80"
+                                            for="flexSwitchCheckDefault5">Subscribe to newsletter</label>
                                     </div>
                                 </li>
                             </ul>
@@ -564,38 +628,44 @@
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="card h-100">
-                        <div class="card-header p-3 pb-0">
+                        <div class="p-3 pb-0 card-header">
                             <div class="row">
                                 <div class="col-md-8 d-flex align-items-center">
                                     <h6 class="mb-0">Profile Information</h6>
                                 </div>
                                 <div class="col-md-4 text-end">
                                     <a href="javascript:;">
-                                        <i class="fas fa-user-edit text-secondary text-sm" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit Profile"></i>
+                                        <i class="text-sm fas fa-user-edit text-secondary" data-bs-toggle="tooltip"
+                                            data-bs-placement="top" title="Edit Profile"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-body p-3">
+                        <div class="p-3 card-body">
                             <p class="text-sm">
-                                Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance
+                                Hi, I’m Alec Thompson, Decisions: If you can’t decide, the answer is no. If two equally
+                                difficult paths, choose the one more painful in the short term (pain avoidance
                                 is creating an illusion of equality).
                             </p>
-                            <hr class="horizontal gray-light my-4">
+                            <hr class="my-4 horizontal gray-light">
                             <ul class="list-group">
-                                <li class="list-group-item border-0 ps-0 pt-0 text-sm"><strong class="text-dark">Full Name:</strong> &nbsp; Alec M. Thompson</li>
-                                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Mobile:</strong> &nbsp; (44) 123 1234 123</li>
-                                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Email:</strong> &nbsp; alecthompson@mail.com</li>
-                                <li class="list-group-item border-0 ps-0 text-sm"><strong class="text-dark">Location:</strong> &nbsp; USA</li>
-                                <li class="list-group-item border-0 pb-0 ps-0">
-                                    <strong class="text-dark text-sm">Social:</strong> &nbsp;
-                                    <a class="btn btn-facebook btn-simple mb-0 py-0 pe-2 ps-1" href="javascript:;">
+                                <li class="pt-0 text-sm border-0 list-group-item ps-0"><strong class="text-dark">Full
+                                        Name:</strong> &nbsp; Alec M. Thompson</li>
+                                <li class="text-sm border-0 list-group-item ps-0"><strong
+                                        class="text-dark">Mobile:</strong> &nbsp; (44) 123 1234 123</li>
+                                <li class="text-sm border-0 list-group-item ps-0"><strong
+                                        class="text-dark">Email:</strong> &nbsp; alecthompson@mail.com</li>
+                                <li class="text-sm border-0 list-group-item ps-0"><strong
+                                        class="text-dark">Location:</strong> &nbsp; USA</li>
+                                <li class="pb-0 border-0 list-group-item ps-0">
+                                    <strong class="text-sm text-dark">Social:</strong> &nbsp;
+                                    <a class="py-0 mb-0 btn btn-facebook btn-simple pe-2 ps-1" href="javascript:;">
                                         <i class="fab fa-facebook fa-lg"></i>
                                     </a>
-                                    <a class="btn btn-twitter btn-simple mb-0 py-0 pe-2 ps-1" href="javascript:;">
+                                    <a class="py-0 mb-0 btn btn-twitter btn-simple pe-2 ps-1" href="javascript:;">
                                         <i class="fab fa-twitter fa-lg"></i>
                                     </a>
-                                    <a class="btn btn-instagram btn-simple mb-0 py-0 pe-2 ps-1" href="javascript:;">
+                                    <a class="py-0 mb-0 btn btn-instagram btn-simple pe-2 ps-1" href="javascript:;">
                                         <i class="fab fa-instagram fa-lg"></i>
                                     </a>
                                 </li>
@@ -605,82 +675,88 @@
                 </div>
                 <div class="col-12 col-xl-4">
                     <div class="card h-100">
-                        <div class="card-header p-3 pb-0">
+                        <div class="p-3 pb-0 card-header">
                             <h6 class="mb-0">Conversations</h6>
                         </div>
-                        <div class="card-body p-3">
+                        <div class="p-3 card-body">
                             <ul class="list-group">
-                                <li class="list-group-item d-flex align-items-center mb-2 border-0 px-0">
+                                <li class="px-0 mb-2 border-0 list-group-item d-flex align-items-center">
                                     <div class="avatar me-3">
-                                        <img src="{{ asset('img/kal-visuals-square.jpg') }}" alt="kal" class="border-radius-lg shadow">
+                                        <img src="{{ asset('img/kal-visuals-square.jpg') }}" alt="kal"
+                                            class="shadow border-radius-lg">
                                     </div>
                                     <div class="d-flex align-items-start flex-column justify-content-center">
                                         <h6 class="mb-0 text-sm">Sophie B.</h6>
                                         <p class="mb-0 text-xs">Hi! I need more information..</p>
                                     </div>
-                                    <a class="btn btn-link mb-0 ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
+                                    <a class="mb-0 btn btn-link ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center mb-2 border-0 px-0">
+                                <li class="px-0 mb-2 border-0 list-group-item d-flex align-items-center">
                                     <div class="avatar me-3">
-                                        <img src="{{ asset('img/marie.jpg') }}" alt="kal" class="border-radius-lg shadow">
+                                        <img src="{{ asset('img/marie.jpg') }}" alt="kal"
+                                            class="shadow border-radius-lg">
                                     </div>
                                     <div class="d-flex align-items-start flex-column justify-content-center">
                                         <h6 class="mb-0 text-sm">Anne Marie</h6>
                                         <p class="mb-0 text-xs">Awesome work, can you..</p>
                                     </div>
-                                    <a class="btn btn-link mb-0 ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
+                                    <a class="mb-0 btn btn-link ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center mb-2 border-0 px-0">
+                                <li class="px-0 mb-2 border-0 list-group-item d-flex align-items-center">
                                     <div class="avatar me-3">
-                                        <img src="{{ asset('img/ivana-square.jpg') }}" alt="kal" class="border-radius-lg shadow">
+                                        <img src="{{ asset('img/ivana-square.jpg') }}" alt="kal"
+                                            class="shadow border-radius-lg">
                                     </div>
                                     <div class="d-flex align-items-start flex-column justify-content-center">
                                         <h6 class="mb-0 text-sm">Ivanna</h6>
                                         <p class="mb-0 text-xs">About files I can..</p>
                                     </div>
-                                    <a class="btn btn-link mb-0 ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
+                                    <a class="mb-0 btn btn-link ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center mb-2 border-0 px-0">
+                                <li class="px-0 mb-2 border-0 list-group-item d-flex align-items-center">
                                     <div class="avatar me-3">
-                                        <img src="{{ asset('img/team-4.jpg') }}" alt="kal" class="border-radius-lg shadow">
+                                        <img src="{{ asset('img/team-4.jpg') }}" alt="kal"
+                                            class="shadow border-radius-lg">
                                     </div>
                                     <div class="d-flex align-items-start flex-column justify-content-center">
                                         <h6 class="mb-0 text-sm">Peterson</h6>
                                         <p class="mb-0 text-xs">Have a great afternoon..</p>
                                     </div>
-                                    <a class="btn btn-link mb-0 ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
+                                    <a class="mb-0 btn btn-link ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
                                 </li>
-                                <li class="list-group-item d-flex align-items-center border-0 px-0">
+                                <li class="px-0 border-0 list-group-item d-flex align-items-center">
                                     <div class="avatar me-3">
-                                        <img src="{{ asset('img/team-3.jpg') }}" alt="kal" class="border-radius-lg shadow">
+                                        <img src="{{ asset('img/team-3.jpg') }}" alt="kal"
+                                            class="shadow border-radius-lg">
                                     </div>
                                     <div class="d-flex align-items-start flex-column justify-content-center">
                                         <h6 class="mb-0 text-sm">Nick Daniel</h6>
                                         <p class="mb-0 text-xs">Hi! I need more information..</p>
                                     </div>
-                                    <a class="btn btn-link mb-0 ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
+                                    <a class="mb-0 btn btn-link ms-auto pe-3 ps-0" href="javascript:;">Reply</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 mt-4">
-                    <div class="card mb-4">
-                        <div class="card-header p-3 pb-0">
+                <div class="mt-4 col-12">
+                    <div class="mb-4 card">
+                        <div class="p-3 pb-0 card-header">
                             <h6 class="mb-1">Projects</h6>
                             <p class="text-sm">Architects design houses</p>
                         </div>
-                        <div class="card-body p-3">
+                        <div class="p-3 card-body">
                             <div class="row">
-                                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                                <div class="mb-4 col-xl-3 col-md-6 mb-xl-0">
                                     <div class="card card-blog card-plain">
                                         <div class="position-relative">
-                                            <a class="d-block border-radius-xl shadow-xl">
-                                                <img src="{{ asset('img/home-decor-1.jpg') }}" alt="img-blur-shadow" class="img-fluid border-radius-xl shadow">
+                                            <a class="shadow-xl d-block border-radius-xl">
+                                                <img src="{{ asset('img/home-decor-1.jpg') }}" alt="img-blur-shadow"
+                                                    class="shadow img-fluid border-radius-xl">
                                             </a>
                                         </div>
-                                        <div class="card-body px-1 pb-0">
-                                            <p class="text-gradient text-dark mb-2 text-sm">Project #2</p>
+                                        <div class="px-1 pb-0 card-body">
+                                            <p class="mb-2 text-sm text-gradient text-dark">Project #2</p>
                                             <a href="javascript:;">
                                                 <h5>
                                                     Modern
@@ -690,71 +766,100 @@
                                                 As Uber works through a huge amount of internal management turmoil.
                                             </p>
                                             <div class="d-flex align-items-center justify-content-between">
-                                                <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
-                                                <div class="avatar-group mt-2">
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-1.jpg') }}">
+                                                <button type="button"
+                                                    class="mb-0 btn btn-outline-primary btn-sm">View Project</button>
+                                                <div class="mt-2 avatar-group">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Elena Morison">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-1.jpg') }}">
                                                     </a>
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-2.jpg') }}">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Ryan Milly">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-2.jpg') }}">
                                                     </a>
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-3.jpg') }}">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Nick Daniel">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-3.jpg') }}">
                                                     </a>
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-4.jpg') }}">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Peterson">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-4.jpg') }}">
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                                <div class="mb-4 col-xl-3 col-md-6 mb-xl-0">
                                     <div class="card card-blog card-plain">
                                         <div class="position-relative">
-                                            <a class="d-block border-radius-xl shadow-xl">
-                                                <img src="{{ asset('img/home-decor-2.jpg') }}" alt="img-blur-shadow" class="img-fluid border-radius-lg shadow">
+                                            <a class="shadow-xl d-block border-radius-xl">
+                                                <img src="{{ asset('img/home-decor-2.jpg') }}" alt="img-blur-shadow"
+                                                    class="shadow img-fluid border-radius-lg">
                                             </a>
                                         </div>
-                                        <div class="card-body px-1 pb-0">
-                                            <p class="text-gradient text-dark mb-2 text-sm">Project #1</p>
+                                        <div class="px-1 pb-0 card-body">
+                                            <p class="mb-2 text-sm text-gradient text-dark">Project #1</p>
                                             <a href="javascript:;">
                                                 <h5>
                                                     Scandinavian
                                                 </h5>
                                             </a>
                                             <p class="mb-4 text-sm">
-                                                Music is something that every person has his or her own specific opinion about.
+                                                Music is something that every person has his or her own specific opinion
+                                                about.
                                             </p>
                                             <div class="d-flex align-items-center justify-content-between">
-                                                <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
-                                                <div class="avatar-group mt-2">
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-3.jpg') }}">
+                                                <button type="button"
+                                                    class="mb-0 btn btn-outline-primary btn-sm">View Project</button>
+                                                <div class="mt-2 avatar-group">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Nick Daniel">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-3.jpg') }}">
                                                     </a>
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-4.jpg') }}">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Peterson">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-4.jpg') }}">
                                                     </a>
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-1.jpg') }}">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Elena Morison">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-1.jpg') }}">
                                                     </a>
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-2.jpg') }}">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Ryan Milly">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-2.jpg') }}">
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
+                                <div class="mb-4 col-xl-3 col-md-6 mb-xl-0">
                                     <div class="card card-blog card-plain">
                                         <div class="position-relative">
-                                            <a class="d-block border-radius-xl shadow-xl">
-                                                <img src="{{ asset('img/home-decor-3.jpg') }}" alt="img-blur-shadow" class="img-fluid border-radius-xl shadow">
+                                            <a class="shadow-xl d-block border-radius-xl">
+                                                <img src="{{ asset('img/home-decor-3.jpg') }}" alt="img-blur-shadow"
+                                                    class="shadow img-fluid border-radius-xl">
                                             </a>
                                         </div>
-                                        <div class="card-body px-1 pb-0">
-                                            <p class="text-gradient text-dark mb-2 text-sm">Project #3</p>
+                                        <div class="px-1 pb-0 card-body">
+                                            <p class="mb-2 text-sm text-gradient text-dark">Project #3</p>
                                             <a href="javascript:;">
                                                 <h5>
                                                     Minimalist
@@ -764,30 +869,43 @@
                                                 Different people have different taste, and various types of music.
                                             </p>
                                             <div class="d-flex align-items-center justify-content-between">
-                                                <button type="button" class="btn btn-outline-primary btn-sm mb-0">View Project</button>
-                                                <div class="avatar-group mt-2">
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Peterson">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-4.jpg') }}">
+                                                <button type="button"
+                                                    class="mb-0 btn btn-outline-primary btn-sm">View Project</button>
+                                                <div class="mt-2 avatar-group">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Peterson">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-4.jpg') }}">
                                                     </a>
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nick Daniel">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-3.jpg') }}">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Nick Daniel">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-3.jpg') }}">
                                                     </a>
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ryan Milly">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-2.jpg') }}">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Ryan Milly">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-2.jpg') }}">
                                                     </a>
-                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Elena Morison">
-                                                        <img alt="Image placeholder" src="{{ asset('img/team-1.jpg') }}">
+                                                    <a href="javascript:;" class="avatar avatar-xs rounded-circle"
+                                                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                                        title="Elena Morison">
+                                                        <img alt="Image placeholder"
+                                                            src="{{ asset('img/team-1.jpg') }}">
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
-                                    <div class="card h-100 card-plain border">
-                                        <div class="card-body d-flex flex-column justify-content-center text-center">
+                                <div class="mb-4 col-xl-3 col-md-6 mb-xl-0">
+                                    <div class="border card h-100 card-plain">
+                                        <div class="text-center card-body d-flex flex-column justify-content-center">
                                             <a href="javascript:;">
-                                                <i class="fa fa-plus text-secondary mb-3"></i>
+                                                <i class="mb-3 fa fa-plus text-secondary"></i>
                                                 <h5 class="text-secondary"> New project </h5>
                                             </a>
                                         </div>
@@ -798,33 +916,38 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer pt-3">
+            <footer class="pt-3 footer">
                 <div class="container-fluid">
                     <div class="row align-items-center justify-content-lg-between">
-                        <div class="col-lg-6 mb-lg-0 mb-4">
-                            <div class="copyright text-muted text-lg-start text-center text-sm">
+                        <div class="mb-4 col-lg-6 mb-lg-0">
+                            <div class="text-sm text-center copyright text-muted text-lg-start">
                                 ©
                                 <script>
                                     document.write(new Date().getFullYear())
                                 </script>,
                                 made with <i class="fa fa-heart"></i> by
-                                <a href="https://www.creative-tim.com" class="font-weight-bold" target="_blank">Creative Tim</a>
+                                <a href="https://www.creative-tim.com" class="font-weight-bold"
+                                    target="_blank">Creative Tim</a>
                                 for a better web.
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                                 <li class="nav-item">
-                                    <a href="https://www.creative-tim.com" class="nav-link text-muted" target="_blank">Creative Tim</a>
+                                    <a href="https://www.creative-tim.com" class="nav-link text-muted"
+                                        target="_blank">Creative Tim</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
+                                    <a href="https://www.creative-tim.com/presentation" class="nav-link text-muted"
+                                        target="_blank">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
+                                    <a href="https://www.creative-tim.com/blog" class="nav-link text-muted"
+                                        target="_blank">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="https://www.creative-tim.com/license" class="nav-link text-muted pe-0" target="_blank">License</a>
+                                    <a href="https://www.creative-tim.com/license" class="nav-link text-muted pe-0"
+                                        target="_blank">License</a>
                                 </li>
                             </ul>
                         </div>
@@ -834,36 +957,42 @@
         </div>
     </div>
     <div class="fixed-plugin">
-        <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
-            <i class="fa fa-cog py-2"> </i>
+        <a class="px-3 py-2 fixed-plugin-button text-dark position-fixed">
+            <i class="py-2 fa fa-cog"> </i>
         </a>
-        <div class="card shadow-lg">
-            <div class="card-header pb-0 pt-3">
+        <div class="shadow-lg card">
+            <div class="pt-3 pb-0 card-header">
                 <div class="float-start">
-                    <h5 class="mb-0 mt-3">Soft UI Configurator</h5>
+                    <h5 class="mt-3 mb-0">Soft UI Configurator</h5>
                     <p>See our dashboard options.</p>
                 </div>
-                <div class="float-end mt-4">
-                    <button class="btn btn-link text-dark fixed-plugin-close-button p-0">
+                <div class="mt-4 float-end">
+                    <button class="p-0 btn btn-link text-dark fixed-plugin-close-button">
                         <i class="fa fa-close"></i>
                     </button>
                 </div>
                 <!-- End Toggle Button -->
             </div>
-            <hr class="horizontal dark my-1">
-            <div class="card-body pt-sm-3 pt-0">
+            <hr class="my-1 horizontal dark">
+            <div class="pt-0 card-body pt-sm-3">
                 <!-- Sidebar Backgrounds -->
                 <div>
                     <h6 class="mb-0">Sidebar Colors</h6>
                 </div>
                 <a href="javascript:void(0)" class="switch-trigger background-color">
-                    <div class="badge-colors my-2 text-start">
-                        <span class="badge bg-gradient-primary active filter" data-color="primary" onclick="sidebarColor(this)"></span>
-                        <span class="badge bg-gradient-dark filter" data-color="dark" onclick="sidebarColor(this)"></span>
-                        <span class="badge bg-gradient-info filter" data-color="info" onclick="sidebarColor(this)"></span>
-                        <span class="badge bg-gradient-success filter" data-color="success" onclick="sidebarColor(this)"></span>
-                        <span class="badge bg-gradient-warning filter" data-color="warning" onclick="sidebarColor(this)"></span>
-                        <span class="badge bg-gradient-danger filter" data-color="danger" onclick="sidebarColor(this)"></span>
+                    <div class="my-2 badge-colors text-start">
+                        <span class="badge bg-gradient-primary active filter" data-color="primary"
+                            onclick="sidebarColor(this)"></span>
+                        <span class="badge bg-gradient-dark filter" data-color="dark"
+                            onclick="sidebarColor(this)"></span>
+                        <span class="badge bg-gradient-info filter" data-color="info"
+                            onclick="sidebarColor(this)"></span>
+                        <span class="badge bg-gradient-success filter" data-color="success"
+                            onclick="sidebarColor(this)"></span>
+                        <span class="badge bg-gradient-warning filter" data-color="warning"
+                            onclick="sidebarColor(this)"></span>
+                        <span class="badge bg-gradient-danger filter" data-color="danger"
+                            onclick="sidebarColor(this)"></span>
                     </div>
                 </a>
                 <!-- Sidenav Type -->
@@ -872,29 +1001,37 @@
                     <p class="text-sm">Choose between 2 different sidenav types.</p>
                 </div>
                 <div class="d-flex">
-                    <button class="btn bg-gradient-primary w-100 active mb-2 px-3" data-class="bg-transparent" onclick="sidebarType(this)">Transparent</button>
-                    <button class="btn bg-gradient-primary w-100 mb-2 ms-2 px-3" data-class="bg-white" onclick="sidebarType(this)">White</button>
+                    <button class="px-3 mb-2 btn bg-gradient-primary w-100 active" data-class="bg-transparent"
+                        onclick="sidebarType(this)">Transparent</button>
+                    <button class="px-3 mb-2 btn bg-gradient-primary w-100 ms-2" data-class="bg-white"
+                        onclick="sidebarType(this)">White</button>
                 </div>
-                <p class="d-xl-none d-block mt-2 text-sm">You can change the sidenav type just on desktop view.</p>
+                <p class="mt-2 text-sm d-xl-none d-block">You can change the sidenav type just on desktop view.</p>
                 <!-- Navbar Fixed -->
                 <div class="mt-3">
                     <h6 class="mb-0">Navbar Fixed</h6>
                 </div>
                 <div class="form-check form-switch ps-0">
-                    <input class="form-check-input ms-auto mt-1" type="checkbox" id="navbarFixed" onclick="navbarFixed(this)">
+                    <input class="mt-1 form-check-input ms-auto" type="checkbox" id="navbarFixed"
+                        onclick="navbarFixed(this)">
                 </div>
                 <hr class="horizontal my-sm-4 dark">
-                <a class="btn bg-gradient-dark w-100" href="https://www.creative-tim.com/product/soft-ui-dashboard">Free Download</a>
-                <a class="btn btn-outline-dark w-100" href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard">View documentation</a>
-                <div class="w-100 text-center">
-                    <a class="github-button" href="https://github.com/creativetimofficial/soft-ui-dashboard" data-icon="octicon-star" data-size="large" data-show-count="true"
+                <a class="btn bg-gradient-dark w-100"
+                    href="https://www.creative-tim.com/product/soft-ui-dashboard">Free Download</a>
+                <a class="btn btn-outline-dark w-100"
+                    href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard">View
+                    documentation</a>
+                <div class="text-center w-100">
+                    <a class="github-button" href="https://github.com/creativetimofficial/soft-ui-dashboard"
+                        data-icon="octicon-star" data-size="large" data-show-count="true"
                         aria-label="Star creativetimofficial/soft-ui-dashboard on GitHub">Star</a>
                     <h6 class="mt-3">Thank you for sharing!</h6>
                     <a href="https://twitter.com/intent/tweet?text=Check%20Soft%20UI%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard"
-                        class="btn btn-dark mb-0 me-2" target="_blank">
+                        class="mb-0 btn btn-dark me-2" target="_blank">
                         <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
                     </a>
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard" class="btn btn-dark mb-0 me-2" target="_blank">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard"
+                        class="mb-0 btn btn-dark me-2" target="_blank">
                         <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
                     </a>
                 </div>
