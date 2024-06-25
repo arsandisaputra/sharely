@@ -321,7 +321,7 @@
                 </nav>
                 <div class="mt-2 navbar-collapse me-md-0 me-sm-4 mt-sm-0 collapse" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-                        <div class="input-group">
+                        <div class="input-group d-none">
                             <span class="input-group-text text-body"><i class="fas fa-search"
                                     aria-hidden="true"></i></span>
                             <input type="text" class="form-control" placeholder="Type here...">
